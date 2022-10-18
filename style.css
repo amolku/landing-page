@@ -53,6 +53,7 @@ ul {
     gap: 24px;
     padding-left: 60px;
     padding-right: 60px;
+    flex-wrap: wrap;
 }
 
 .info-box {
@@ -68,6 +69,7 @@ ul {
     flex: 1 1 auto;
     height: 85px;
     width: 85px;
+    
 }
 
 .info p {
@@ -94,3 +96,4 @@ ul {
     flex: 1 1 auto;
     text-align: right;
 }
+
