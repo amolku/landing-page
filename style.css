@@ -1,10 +1,13 @@
+* {
+    border: 1px solid black;
+}
+
 body {
-    min-height: 95vh;
+    min-height: 100vh;
     padding-left: 100px;
     padding-right: 100px;
     display: flex;
     flex-direction: column;
-    padding-bottom: 30px;
 }
 
 .content {
@@ -14,9 +17,6 @@ body {
 }
 
 /* Header styling */
-* {
-    border: 1px solid black;
-}
 
 .header {
     display: flex;
@@ -29,8 +29,9 @@ body {
     gap: 16px;
 }
 
-ul {
+ul { /* these carry some margin with them */
     list-style-type: none;
+    margin: 0;
 }
 
 
@@ -59,11 +60,13 @@ ul {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .info-header {
     text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .info-boxes {
@@ -76,8 +79,8 @@ ul {
 }
 
 .info-box {
-    flex: 1 1 auto;
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -104,17 +107,12 @@ ul {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     padding-left: 60px;
     padding-right: 60px;
-}
-
-.main-quote {
-    flex: 1 1 auto;
+    justify-content: center;
 }
 
 .quote-author {
-    flex: 1 1 auto;
     text-align: right;
 }
 
