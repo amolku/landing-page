@@ -51,9 +51,12 @@ ul {
     display: flex;
     justify-content: center;
     gap: 24px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .info-box {
+    flex: 1 1 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,11 +65,32 @@ ul {
 }
 
 .info-box-img {
+    flex: 1 1 auto;
     height: 85px;
     width: 85px;
 }
 
 .info p {
+    flex: 1;
     font-size: 10px;
     text-align: center;
+}
+
+/* Quote Section */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.main-quote {
+    flex: 1 1 auto;
+}
+
+.quote-author {
+    flex: 1 1 auto;
+    text-align: right;
 }
