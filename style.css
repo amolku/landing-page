@@ -97,3 +97,35 @@ ul {
     text-align: right;
 }
 
+/* Action */
+
+.action {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 40px;
+}
+
+.action-left {
+    flex: 2;
+}
+
+.action-right {
+    flex: .7;
+    text-align: right;
+}
+
+.call-to-action {
+    margin: 0;
+}
+
+.action-text-detail {
+    margin: 0;
+}
+
+/* footer styling */
+
