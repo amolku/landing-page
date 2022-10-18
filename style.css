@@ -1,3 +1,8 @@
+body {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 /* Header styling */
 * {
     border: 1px solid black;
@@ -7,8 +12,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
 .right-links {
@@ -27,8 +30,6 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
     gap: 30px;
 }
 
@@ -38,4 +39,34 @@ ul {
 
 .marquee-image {
     flex: 1;
+}
+
+/* INFO STYLING */
+
+.info-header {
+    text-align: center;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+}
+
+.info-box-img {
+    height: 85px;
+    width: 85px;
+}
+
+.info p {
+    font-size: 10px;
+    text-align: center;
 }
