@@ -1,6 +1,16 @@
 body {
+    min-height: 95vh;
     padding-left: 100px;
     padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 /* Header styling */
@@ -27,6 +37,7 @@ ul {
 /* Marquee Styling */
 
 .marquee {
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,6 +53,14 @@ ul {
 }
 
 /* INFO STYLING */
+
+.info {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .info-header {
     text-align: center;
@@ -76,11 +95,13 @@ ul {
     flex: 1;
     font-size: 10px;
     text-align: center;
+    width: 85px;
 }
 
 /* Quote Section */
 
 .quote {
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -129,3 +150,7 @@ ul {
 
 /* footer styling */
 
+.footer {
+    display: flex;
+    justify-content: center;
+}
