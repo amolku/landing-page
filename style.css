@@ -1,13 +1,13 @@
 * {
-    border: 1px solid black;
+    border: 1px solid red;
 }
 
 body {
     min-height: 100vh;
-    padding-left: 100px;
-    padding-right: 100px;
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
+    
 }
 
 .content {
@@ -22,6 +22,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.right-links {
+    font-size: 18px;
 }
 
 .right-links {
@@ -37,12 +49,19 @@ ul { /* these carry some margin with them */
 
 /* Marquee Styling */
 
+
+ 
 .marquee {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 30px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding-left: 80px;
+    padding-right: 80px;
+    flex-wrap: wrap;
 }
 
 .marquee-left  {
@@ -50,7 +69,35 @@ ul { /* these carry some margin with them */
 }
 
 .marquee-image {
-    flex: 1;
+    flex: 1 0 0;
+    background: gray;
+    object-fit: contain;
+    min-width: 200px;
+}
+
+.marquee-image img {
+    max-width: 100%;
+    min-width: 200px;
+
+}
+
+p {
+    margin: 0;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.sub {
+    font-size: 18px;
+    
+}
+
+.marquee-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
 
 /* INFO STYLING */
@@ -84,14 +131,14 @@ ul { /* these carry some margin with them */
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 85px;
+    
 }
 
 .info-box-img {
     flex: 1 1 auto;
-    height: 85px;
-    width: 85px;
-    
+    height: 150px;
+    width: 150px;
+    padding: 0;
 }
 
 .info p {
@@ -107,8 +154,9 @@ ul { /* these carry some margin with them */
     flex: 1;
     display: flex;
     flex-direction: column;
-    padding-left: 60px;
-    padding-right: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
     justify-content: center;
 }
 
